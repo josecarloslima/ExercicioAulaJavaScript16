@@ -1,28 +1,32 @@
-body {
-    background: rgb(70, 142, 236);
-    font: normal 15pt Arial;
+@charset "UTF-8";
 
+body {
+    background: rgba(70, 142, 236, 0.437);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    color: whitesmoke;
+    color: black;
     text-align: center;
+}
 
+h1 {
+    font-size: 2em;
+    font-variant-caps: all-small-caps;
 }
 
 input {
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
     text-align: center;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 1em;
 }
 
 section {
     background: whitesmoke;
-    border-radius: 10px;
-    padding: 15px;
-    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
@@ -34,13 +38,11 @@ input[type="button"] {
     line-height: 25px;    
     color: white;
     background-color: green;
-    font-size: 25px;
+    font-size: 1.5em;
 }
 
 footer {
-    color: whitesmoke;
+    color: black;
     text-align: center;
-    font-style: italic;
-    font-size: 12px;
-
+    font-size: 0.9em;
 }
